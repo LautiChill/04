@@ -8,7 +8,7 @@ body {
 }
 
 h2 {  
-    font-size: 80px;  
+    font-size: 30px;  
     color: rgb(255, 255, 255);
     text-align: center;
     }
@@ -17,7 +17,7 @@ h2 {
     text-align: center;  
     text-transform: uppercase;  
     font-weight: bold;  
-    font-size: 180px;
+    font-size: 50px;
     color: #ffffff;
     }
 
@@ -31,17 +31,36 @@ p a {
     text-decoration: none;
     }
 
-picture {
-    display: flex;
-    justify-content: center;
+.imagen1 {
+        display: flex;
+    justify-content:baseline;
 }
 
-#imagen {
+.imagen2 {
     display: flex;
-    justify-content: end;
+justify-content:center;
 }
 
-#imagen1 {
+.imagen3 {
     display: flex;
-    justify-content: baseline;
+justify-content:end;
+}
+    
+picture img {
+    width: 20%;
+    height: 20%; /*  width: ancho / height: alto*/ 
+}
+
+#opciones {
+    text-align: center;
+    list-style: none; /* elimina los puntitos (viñeta) */
+}
+
+#opciones li {
+    display: inline-block; /* la lista la coloca horizontalmente */
+    padding: 10px;
+}
+
+.imgport {
+    width: 150px;
 }
